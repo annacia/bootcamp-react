@@ -1,0 +1,17 @@
+#form-cep {
+    margin: 10px 23px;
+}
+
+#form-cep #formcep-group {
+    margin-bottom: 10px;
+}
+
+#form-cep #formcep-group label {
+    display: block;
+}
+
+#form-cep #formcep-group input {
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid #bfbebe;
+}

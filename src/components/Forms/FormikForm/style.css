@@ -1,0 +1,14 @@
+#form-body {
+    text-align: center;
+    margin: 100px;
+}
+
+#form-content input{
+    width: 50%;
+    height: 25px;
+    border-radius: 4px;
+    border: 2px solid #bfbfbf;
+    margin-bottom: 10px;
+}
+
+

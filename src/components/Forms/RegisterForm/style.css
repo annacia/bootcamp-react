@@ -1,0 +1,22 @@
+#form-page {
+    padding: 15px;
+}
+
+#register-form span {
+    display: block;
+}
+
+#register-form div {
+    margin: 10px 0;
+}
+
+#register-form input {
+    height: 20px;
+    padding: 5px;
+}
+
+#register-form button {
+    background-color: #fff;
+    padding: 5px;
+    margin-top: 10px;
+}
