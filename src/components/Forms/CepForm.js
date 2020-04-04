@@ -41,30 +41,36 @@ class CepForm extends React.Component{
         })
         if (name === 'cep' && value.length === 8) {
             this.setState({loading:true})
-            const localObj = await this.checkCep(value)
-            if (localObj) {
-                if (localObj.erro) {
-                    this.setState({error:true})
-                    return
+            return await this.checkCep(value)
+            .then(localObj => {
+                if (localObj) {
+                    console.log("handleChange",this.state)
+                    if (localObj.erro) {
+                        this.setState({error:true})
+                        return
+                    }
+                    const { cep, logradouro, complemento, bairro, localidade, uf, numero } = localObj
+                    this.setState({cep, logradouro, complemento, bairro, localidade, uf, numero})
                 }
-            }
-            const { cep, logradouro, complemento, bairro, localidade, uf, numero } = localObj
-            this.setState({cep, logradouro, complemento, bairro, localidade, uf, numero})
+            })
         }
     } 
 
     handleBlur = async value => {
         if(value.length === 8 ){
-          this.setState({loading:true})
-          const localObj = await this.checkCep(value)
-          if (localObj) {
-              if(localObj.erro){
-                this.setState({error:true})
-                return
-              }
-          }
-          const { cep, logradouro, complemento, bairro, localidade, uf, numero } = localObj
-          this.setState({cep, logradouro, complemento, bairro, localidade, uf, numero})
+            this.setState({loading:true})
+            return await this.checkCep(value)
+            .then(localObj => {
+                if (localObj) {
+                    console.log("handleBlur",this.state)
+                    if (localObj.erro) {
+                        this.setState({error:true})
+                        return
+                    }
+                    const { cep, logradouro, complemento, bairro, localidade, uf, numero } = localObj
+                    this.setState({cep, logradouro, complemento, bairro, localidade, uf, numero})
+                }
+            })
         }
     }
 
@@ -77,7 +83,7 @@ class CepForm extends React.Component{
                 <FormGroup id="formcep-group">
                   <Label for="cep">CEP</Label>
                   <Input invalid={error.toString()} name="cep" value={cep} onChange={e => this.handleChange(e.target)} onBlur={e => this.handleBlur(e.target.value)} maxLength={9}/>
-                  <FormFeedback invalid={error.toString()}>Error</FormFeedback>
+                  <FormFeedback invalid={error.toString()}>CEP Inválido</FormFeedback>
                 </FormGroup>
                 <FormGroup id="formcep-group">
                   <Label for="logradouro">Logradouro</Label>
