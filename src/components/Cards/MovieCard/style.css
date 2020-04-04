@@ -1,0 +1,32 @@
+#container-deck {
+    max-width: 1680px;
+    margin: 0 auto;
+}
+
+.deck_movies.card-deck {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+
+#movie-card {
+    border: 2px solid;
+    border-radius: 5px;
+    margin: 25px;
+    max-width: 500px;
+    background-color: #ffe7ff;
+}
+
+#movie-card .card-body .card-title {
+    text-align: center;
+    padding: 20px;
+    background-color: #bce0ff;
+}
+
+#movie-card .card-body .card-text {
+    padding: 40px;
+    line-height: 30px;
+    opacity: 0.8;
+}

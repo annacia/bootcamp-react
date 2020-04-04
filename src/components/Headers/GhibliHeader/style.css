@@ -1,0 +1,16 @@
+#ghibli-header {
+    text-align: center;
+}
+
+#ghibli-header h4 a {
+    text-decoration: none;
+    color: #000;
+}
+
+#ghibli-header h4 a:hover {
+    color:#ccc;
+}
+
+#ghibli-header img {
+    width: 300px;
+}
