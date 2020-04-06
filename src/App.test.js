@@ -6,15 +6,12 @@ import Routes from './Routes';
 import Home from './pages/Home';
 import App from './App';
 
-
 test('path should go to Home', () => {
   const wrapper = mount(
     <MemoryRouter initialEntries={[ '/' ]}>
       <App/>
     </MemoryRouter>
   );
-
-  console.log(wrapper.html())
 
   setTimeout(() => {
     wrapper.update();
@@ -23,3 +20,13 @@ test('path should go to Home', () => {
   }, 1000);
 });
 
+test('path should go to Home', () => {
+    const wrapper = mount(
+      <MemoryRouter initialEntries={[ '/formulario-cadastro' ]}>
+        <Home/>
+      </MemoryRouter>
+    );
+  
+    console.log(wrapper.html())
+    expect(wrapper.find(Home)).toHaveLength(1);
+  });

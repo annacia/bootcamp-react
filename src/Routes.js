@@ -6,7 +6,7 @@ const FormularioCadastro = React.lazy(() => import('./pages/FormularioCadastro')
 const FormularioCep = React.lazy(() => import('./pages/FormularioCep'));
 const ConsumoApi = React.lazy(() => import('./pages/ConsumoApi'));
 const RefatorarClass = React.lazy(() => import('./pages/RefatorarClass'));
-const TodoList = React.lazy(() => import('./pages/TodoList'));
+const TodoListPage = React.lazy(() => import('./pages/TodoListPage'));
 const ReactRouter = React.lazy(() => import('./pages/ReactRouter'));
 const ConsumoApiAuth = React.lazy(() => import('./pages/ConsumoApiAuth'));
 const FormularioFormik = React.lazy(() => import('./pages/FormularioFormik'));
@@ -24,7 +24,7 @@ const Routes = () => (
             
             <Route exact path='/refatorar-class'component={routerProps => <RefatorarClass {...routerProps} />} />
 
-            <Route exact path='/todo-list'component={routerProps => <TodoList {...routerProps} />} />
+            <Route exact path='/todo-list'component={routerProps => <TodoListPage {...routerProps} />} />
             
             <Route exact path='/react-router'component={routerProps => <ReactRouter {...routerProps} />} />
             
