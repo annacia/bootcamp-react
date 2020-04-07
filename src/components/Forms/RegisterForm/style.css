@@ -2,6 +2,15 @@
     padding: 15px;
 }
 
+#form-page h3 {
+    text-align: center;
+}
+
+#register-form {
+    width: max-content;
+    margin: 0 auto;
+}
+
 #register-form span {
     display: block;
 }

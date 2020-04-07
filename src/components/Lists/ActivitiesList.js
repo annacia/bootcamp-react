@@ -1,10 +1,12 @@
 import React from "react";
 import { Link } from 'react-router-dom';
 
+import './ActivitiesList/style.css'
+
 function ActivitiesList() {
   
     return (
-        <div id="activies-list">
+        <div id="activities-list">
             <h3>Lista de Atividades</h3>
             <ul>
                 <li>

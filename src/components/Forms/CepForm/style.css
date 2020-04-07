@@ -1,5 +1,6 @@
 #form-cep {
-    margin: 10px 23px;
+    width: max-content;
+    margin: 0 auto;
 }
 
 #form-cep #formcep-group {
