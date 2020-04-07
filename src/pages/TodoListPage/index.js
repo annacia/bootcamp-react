@@ -14,10 +14,9 @@ const store = createStore(rootReducer)
 const TodoListPage = () => {
     return(
         <>
-        <IndexHeader title="React Bootcamp" subtitle="@WoMakersCode" />
+        <IndexHeader page_title="To-Do List com Redux" />
         <Provider store={store}>
             <div className="todo-list">
-                <h3>To-Do List com Redux</h3>
                 <AddTodo />
                 <MenuTodoList />
                 <VisibleTodoList />

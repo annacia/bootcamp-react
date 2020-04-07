@@ -7,7 +7,6 @@ function ActivitiesList() {
   
     return (
         <div id="activities-list">
-            <h3>Lista de Atividades</h3>
             <ul>
                 <li>
                     <Link to={`/formulario-cadastro`}>

@@ -1,0 +1,39 @@
+#form-gif {
+    width: max-content;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#form-gif #form-content {
+    margin: 0 auto;
+    width: max-content;
+    margin-bottom: 25px;
+}
+
+#form-gif #form-content input {
+    height: 5px;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #b9b9b9;
+}
+
+#form-gif #form-content button {
+    height: 29px;
+    border: none;
+    border-radius: 5px;
+    background-color: #df62ff;
+    color: #fff;
+    font-weight: bold;
+    padding: 0 15px;
+    cursor: pointer;
+}
+
+#form-gif #form-content button:hover {
+    background-color: #8a3b9e;
+}
+
+#form-gif span {
+    display: block;
+    text-align: center;
+}

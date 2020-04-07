@@ -8,8 +8,7 @@ const RefatorarClass = () => {
 
     return(
         <>
-        <IndexHeader title="React Bootcamp" subtitle="@WoMakersCode" />
-        <h3>Componente de classe refatorado para função</h3>
+        <IndexHeader page_title="Componente de classe refatorado para função" />
         <a className="codigo-btn" href="https://github.com/annacia/bootcamp-react/blob/master/src/components/me-transforme-em-funcao.js">Código</a>
         <div id="componente-refatorado">
             <ExampleComponent/>

@@ -6,9 +6,8 @@ const FormularioCadastro = () => {
 
     return(
         <>
-        <IndexHeader title="React Bootcamp" subtitle="@WoMakersCode" />
+        <IndexHeader page_title="Cadastro de Alunas" />
         <div id="form-page">
-            <h3>Cadastro de Alunas</h3>
             <RegisterForm/>
         </div>
         </>

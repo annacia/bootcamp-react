@@ -6,9 +6,8 @@ import IndexHeader from '../../components/Headers/IndexHeader'
 const ConsumoApi = () => {
         return(
             <>
-            <IndexHeader title="React Bootcamp" subtitle="@WoMakersCode" />
+            <IndexHeader page_title="Consumo de API" />
             <GhibliHeader 
-                title="Consumo de API" 
                 subtitle="Studio Ghibli" 
                 link="https://ghibliapi.herokuapp.com/"
             />

@@ -6,7 +6,7 @@ const Home = () => {
 
     return(
         <>
-        <IndexHeader title="React Bootcamp" subtitle="@WoMakersCode" />
+        <IndexHeader page_title="Lista de Atividades"/>
         <ActivitiesList/>
         </>
     )

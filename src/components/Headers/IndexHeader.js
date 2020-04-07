@@ -4,13 +4,14 @@ import logo from './IndexHeader/img/logo.png';
 import './IndexHeader/style.css'
 
 const IndexHeader = (props) => {
-    const { title, subtitle } = props;
+    const { page_title } = props;
   
     return (
         <div id="index-header">
-            <h1>{title}</h1>
-            <img src={logo} alt={subtitle}/>
-            <h2>{subtitle}</h2>
+            <h1>React Bootcamp</h1>
+            <img src={logo} alt="@WoMakersCode"/>
+            <h2>@WoMakersCode</h2>
+            <h3>{page_title}</h3>
         </div>
     );
 }
