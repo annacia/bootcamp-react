@@ -1,0 +1,14 @@
+ul.todo-list {
+    width: max-content;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+ul.todo-list li {
+    margin: 10px 0;
+}
+
+ul.todo-list li:hover {
+    cursor: pointer;
+    color: #989898;
+}

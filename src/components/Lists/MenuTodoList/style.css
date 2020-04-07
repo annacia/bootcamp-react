@@ -1,0 +1,20 @@
+.menu-todo {
+    width: 500px;
+    margin: 25px auto;
+}
+
+.menu-todo button {
+    width: 90px;
+    height: 25px;
+    background-color: #941196;
+    border: none;
+    border-radius: 5px;
+    cursor: copy;
+    color: #fff;
+    font-weight: bold;
+}
+
+.menu-todo button:hover {
+    cursor: pointer;
+    background-color: #955096;
+}

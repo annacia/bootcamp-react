@@ -2,8 +2,10 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import TodoElement from './../Elements/TodoElement'
 
+import './TodoList/style.css'
+
 const TodoList = ({ todos, toggleTodo }) => (
-  <ul>
+  <ul className="todo-list">
     {todos.map(todo => (
         <TodoElement 
             key={todo.id} 

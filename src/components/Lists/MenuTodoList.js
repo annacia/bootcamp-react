@@ -2,8 +2,10 @@ import React from 'react'
 import FilterLink from '../../containers/FilterLink'
 import { VisibilityFilters } from '../../actions'
 
+import './MenuTodoList/style.css'
+
 const MenuTodoList = () => (
-  <div>
+  <div className="menu-todo">
     <span>Show: </span>
     <FilterLink filter={VisibilityFilters.SHOW_ALL}>All</FilterLink>
     <FilterLink filter={VisibilityFilters.SHOW_ACTIVE}>Active</FilterLink>
