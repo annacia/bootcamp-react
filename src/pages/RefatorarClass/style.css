@@ -1,0 +1,26 @@
+h3 {
+    text-align: center;
+}
+
+.codigo-btn {
+    text-align: center;
+    margin: 0 auto;
+    text-decoration: none;
+    color: #fff;
+    background-color: #7f7bb5;
+    display: block;
+    width: 100px;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    border-radius: 5px;
+
+}
+
+.codigo-btn:hover {
+    background-color: #43415f;
+}
+
+#componente-refatorado {
+    width: max-content;
+    margin: 0 auto;
+}
