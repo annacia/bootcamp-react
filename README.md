@@ -1,68 +1,64 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React bootcamp @WoMarkersCode :sparkling_heart:
+Principais atividades realizadas no bootcamp de React da WoMakersCode.
 
-## Available Scripts
+****
 
-In the project directory, you can run:
+## :star: Atividades:
 
-### `yarn start`
+1. Formulário de atividades;
+2. Formulário de CEP;
+3. Consumo de API;
+4. Refatoração de classe com Redux;
+5. To-do List com Redux;
+6. React Router;
+7. Consumo de API com autenticação;
+8. Formulário com Formik.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+****
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## 🚀 Rodando o projeto localmente
 
-### `yarn test`
+****
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## ⚠️ Pré-requisitos:
 
-### `yarn build`
+1. Node.js e NPM ou YARN instalado (versão 10.x ou acima)
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+****
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+1. Clone o projeto na sua máquina
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```sh
+git clone https://github.com/annacia/bootcamp-react.git
+```
 
-### `yarn eject`
+2. Acesse a pasta do projeto
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```sh
+cd bootcamp-react
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Instale todas as dependências do projeto
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```sh
+npm ou yarn install
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+4. Crie um arquivo ```.env```
 
-## Learn More
+5. Adicione sua key da API Giphy dentro desse arquivo ```.env```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```REACT_APP_GIPHY_API_KEY=SUA_KEY_AQUI```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+6. Rode o projeto na sua máquina
 
-### Code Splitting
+```sh
+npm ou yarn start
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+7. Abre o navegador e visualize o projeto
 
-### Analyzing the Bundle Size
+```sh
+http://localhost:3000
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
