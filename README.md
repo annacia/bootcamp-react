@@ -13,6 +13,7 @@ Principais atividades realizadas no bootcamp de React da WoMakersCode.
 6. React Router;
 7. Consumo de API com autenticação;
 8. Formulário com Formik.
+9. Projeto Final: https://github.com/React-Bootcamp-WoMarkersCode/cv-speed-hiring
 
 ****
 
