@@ -5,7 +5,8 @@ import rootReducer from '../../reducers'
 import AddTodo from '../../containers/AddTodo'
 import VisibleTodoList from './../../containers/VisibleTodoList'
 import MenuTodoList from './../../components/Lists/MenuTodoList'
-import IndexHeader from '../../components/Headers/IndexHeader'
+import IndexHeader from '../../components/Headers/IndexHeader';
+import PageFooter from '../../components/Footers/PageFooter';
 
 import './style.css'
 
@@ -22,6 +23,7 @@ const TodoListPage = () => {
                 <VisibleTodoList />
             </div>
         </Provider>
+        <PageFooter isHome={false}/>
         </>
     )
 };

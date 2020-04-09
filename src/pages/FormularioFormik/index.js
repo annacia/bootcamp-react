@@ -1,6 +1,7 @@
 import React from 'react';
 import FormikForm from '../../components/Forms/FormikForm';
-import IndexHeader from '../../components/Headers/IndexHeader'
+import IndexHeader from '../../components/Headers/IndexHeader';
+import PageFooter from '../../components/Footers/PageFooter';
 
 const FormularioFormik = () => {
 
@@ -10,6 +11,7 @@ const FormularioFormik = () => {
         <div className="App">
             <FormikForm />
         </div>
+        <PageFooter isHome={false}/>
         </>
     )
 };

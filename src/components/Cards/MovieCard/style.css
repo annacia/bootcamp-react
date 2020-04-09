@@ -1,6 +1,7 @@
 #container-deck {
     max-width: 1680px;
     margin: 0 auto;
+    margin-bottom: 150px;
 }
 
 .deck_movies.card-deck {

@@ -1,0 +1,34 @@
+#page-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    background-color: #eb80ff;
+    font-weight: bold;
+    color: #fff;
+}
+
+#page-footer p {
+    color: #424242;
+}
+
+#page-footer p span {
+    color: #fff;
+}
+
+#page-footer a {
+    background-color: #8efaff;
+    display: block;
+    width: 50px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    color: #424242;
+    text-decoration: none;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+#page-footer a:hover {
+    opacity: 0.8;
+}

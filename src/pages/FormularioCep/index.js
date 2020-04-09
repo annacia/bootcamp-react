@@ -1,6 +1,7 @@
 import React from 'react';
 import CepForm from '../../components/Forms/CepForm';
-import IndexHeader from '../../components/Headers/IndexHeader'
+import IndexHeader from '../../components/Headers/IndexHeader';
+import PageFooter from '../../components/Footers/PageFooter';
 
 const FormularioCep = () => {
 
@@ -8,6 +9,7 @@ const FormularioCep = () => {
         <div className="App">
             <IndexHeader page_title="Formulário de CEP" />
             <CepForm />
+            <PageFooter isHome={false}/>
         </div>
     )
 };

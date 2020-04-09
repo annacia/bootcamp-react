@@ -1,6 +1,7 @@
 import React from 'react';
 import IndexHeader from '../../components/Headers/IndexHeader';
-import ExampleComponent from '../../components/me-transforme-em-funcao'
+import ExampleComponent from '../../components/me-transforme-em-funcao';
+import PageFooter from '../../components/Footers/PageFooter';
 
 import './style.css'
 
@@ -13,6 +14,7 @@ const RefatorarClass = () => {
         <div id="componente-refatorado">
             <ExampleComponent/>
         </div>
+        <PageFooter isHome={false}/>
         </>
     )
 };

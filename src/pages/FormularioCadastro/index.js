@@ -1,6 +1,7 @@
 import React from 'react';
 import RegisterForm from '../../components/Forms/RegisterForm';
-import IndexHeader from '../../components/Headers/IndexHeader'
+import IndexHeader from '../../components/Headers/IndexHeader';
+import PageFooter from '../../components/Footers/PageFooter';
 
 const FormularioCadastro = () => {
 
@@ -10,6 +11,7 @@ const FormularioCadastro = () => {
         <div id="form-page">
             <RegisterForm/>
         </div>
+        <PageFooter isHome={false}/>
         </>
     );
 };
