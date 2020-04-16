@@ -5,7 +5,7 @@ Principais atividades realizadas no bootcamp de React da WoMakersCode.
 
 ## :star: Atividades:
 
-1. Formulário de atividades;
+1. Formulário de cadastro;
 2. Formulário de CEP;
 3. Consumo de API;
 4. Refatoração de classe com Redux;
