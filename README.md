@@ -1,4 +1,4 @@
-# React bootcamp @WoMarkersCode :sparkling_heart:
+# React bootcamp @WoMakersCode :sparkling_heart:
 Principais atividades realizadas no bootcamp de React da WoMakersCode.
 
 ****
